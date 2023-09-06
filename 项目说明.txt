@@ -1,0 +1,19 @@
+
+
+WSGI:描述同步Websevrer(Gunicorn,uWSGI)与Webframwork(Django,Flask,Tornado)通信规范,缺点不支持长链接,和websocket
+ASGI:支持websocket和长http连接,异步
+uvicorn 用于生产环境的高性能的ASGI服务器
+
+
+自动生成的api交互文档
+文档页加载的比较慢
+http://127.0.0.1:8000/docs
+
+http://127.0.0.1:8000/redoc
+
+# 在文件中直接启动
+
+python类型提示
+
+
+
